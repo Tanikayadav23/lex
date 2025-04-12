@@ -1,8 +1,3 @@
-/** 
-   A lex program to convert all lowercase to uppercase & Reverse
-
-   @author: ranaaditya
-**/
 
 lowercase[a-z]
 uppercase[A-Z]
