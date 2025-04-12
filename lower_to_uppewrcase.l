@@ -25,3 +25,19 @@ int main()
 	yylex();
     return 0;
 }
+
+
+
+Output -
+$ lex lower_to_uppercase.l
+$ gcc lower_to_uppercase.c -ll
+$ ./a.out<untitled.txt
+mY NAME IS tANIKA
+tanika yadav
+$
+
+and the untitled.txt file contains:
+My name is Tanika
+TANIKA YADAV
+
+
